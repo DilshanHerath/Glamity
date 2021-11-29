@@ -119,71 +119,71 @@
     <!--------------------------------------------------- Modal -------------------------------------------------------->
 
 
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-         aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div style="justify-content: center;align-items: center;display: flex">
-                        <div class="card " style="width: 18rem;border: none">
-                            <img src="../../images/dress4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 style="text-align: center;margin: 0" class="card-title">GL001</h5>
-                                <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
-                                <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
-                                <hr>
-                                <p style="text-align: center;margin: 0;color: red;font-size: 13px;margin-bottom: 3%"
-                                   class="card-text">
-                                    * Please Select Option</p>
-                                <div style="justify-content: center;align-items: center;display: flex">
-                                    <p>STYLE SIZE</p>
+    <form action="">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div style="justify-content: center;align-items: center;display: flex">
+                            <div class="card " style="width: 18rem;border: none">
+                                <img src="../../images/dress4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 style="text-align: center;margin: 0" class="card-title">GL001</h5>
+                                    <p style="text-align: center;margin: 0" class="card-text">Cotton</p>
+                                    <p style="text-align: center;margin: 0" class="card-text">Rs 1200/-</p>
+                                    <hr>
+                                    <p style="text-align: center;margin: 0;color: red;font-size: 13px;margin-bottom: 3%"
+                                       class="card-text">
+                                        * Please Select Option</p>
+                                    <div style="justify-content: center;align-items: center;display: flex">
+                                        <p>STYLE SIZE</p>
+                                    </div>
+                                    <div
+                                        style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
+
+                                        <input type="radio" class="btn-check" name="options-outlined"
+                                               id="btn-check-outlined"
+                                               autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="btn-check-outlined">S</label>
+
+                                        <input type="radio" class="btn-check" name="options-outlined"
+                                               id="btn-check-2-outlined"
+                                               autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="btn-check-2-outlined">M</label>
+
+                                        <input type="radio" class="btn-check" name="options-outlined" id="success-outlined"
+                                               autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="success-outlined">L</label>
+
+                                        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+                                               autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="danger-outlined">XL</label>
+                                    </div>
+
+                                    <hr>
                                 </div>
-                                <div
-                                    style="display: flex;align-items: center;justify-content: space-between;margin-top: 2%">
-
-                                    <input type="radio" class="btn-check" name="options-outlined"
-                                           id="btn-check-outlined"
-                                           autocomplete="off">
-                                    <label class="btn btn-outline-primary" for="btn-check-outlined">S</label>
-
-                                    <input type="radio" class="btn-check" name="options-outlined"
-                                           id="btn-check-2-outlined"
-                                           autocomplete="off">
-                                    <label class="btn btn-outline-primary" for="btn-check-2-outlined">M</label>
-
-                                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined"
-                                           autocomplete="off">
-                                    <label class="btn btn-outline-primary" for="success-outlined">L</label>
-
-                                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
-                                           autocomplete="off">
-                                    <label class="btn btn-outline-primary" for="danger-outlined">XL</label>
-                                </div>
-
-                                <hr>
                             </div>
                         </div>
+                        <div style="display: flex;justify-content: space-around">
+                            <label for="quantity">Quantity : </label>
+                            <input class="col-6" type="number" id="quantity" name="quantity" min="1" max="100">
+                        </div>
                     </div>
-                    <div style="display: flex;justify-content: space-around">
-                        <label for="quantity">Quantity : </label>
-                        <input class="col-6" type="number" id="quantity" name="quantity" min="1" max="100">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary col-12" data-bs-dismiss="modal"
+                                style="background: #8963EF"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">Add To Cart
+                        </button>
                     </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary col-12" data-bs-dismiss="modal"
-                            style="background: #8963EF"
-                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                            aria-controls="offcanvasRight">Add To Cart
-                    </button>
-                    <!--          <button type="button" class="btn btn-primary">Understood</button>-->
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </section>
 
 
