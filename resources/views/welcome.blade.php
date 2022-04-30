@@ -128,7 +128,6 @@
                     <a href="{{ route('category_list' , $object->id) }}">
                         <div class="div1">
                             <figure class="snip1581 m-0" style="min-width: fit-content  !important;">
-<!--                                <p>{{url('storage/'.$object->image) }}-----{{$object->image}}</p>-->
                             <img style="" class="image1" src="{{url('storage/'.$object->image) }}" alt="..."/>
                             </figure>
                             <div class="overlay">
