@@ -102,10 +102,12 @@
                     <hr style="height: 1px;width: 80%;text-align: center;color: #404040">
                 </div>
 
-                <button
-                    style="height: 70px;width: 250px;margin-bottom: 5%;font-size: 18px;font-weight: 600;margin-top: 5%"
-                    type="submit" class="btn btn-primary">Continue to Shipping
-                </button>
+                <a href="/welcome">
+                    <button
+                        style="height: 70px;width: 250px;margin-bottom: 5%;font-size: 18px;font-weight: 600;margin-top: 5%"
+                        type="submit" class="btn btn-primary">Continue to Shipping
+                    </button>
+                </a>
             </form>
         </div>
         <div class="col-md-6" style="">
